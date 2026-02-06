@@ -3,678 +3,326 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CORTEXFAB | Neural Manufacturing Interface</title>
+    <meta name="description" content="For sale: cortexfab.com - A premium domain for the new era of AGI-driven, cortex-inspired clustered manufacturing. Unlock the future of automated, intelligent fabrication.">
+    <meta name="keywords" content="cortexfab, AGI, Artificial General Intelligence, cortex, manufacturing, fabrication, automation, robotics, tech domain, premium domain, domain for sale">
+    
+    <title>For Sale: CortexFab.com - The Future of AGI Manufacturing</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
     <style>
         :root {
-            --neural-blue: #00f3ff;
-            --synapse-purple: #9d00ff;
-            --matrix-green: #00ff9d;
-            --neon-pink: #ff00ff;
-            --dark-bg: #0a0a14;
-            --darker-bg: #050510;
-            --grid-color: rgba(0, 243, 255, 0.1);
+            --primary-color: #00ffff; /* Cyan */
+            --secondary-color: #f0f; /* Magenta */
+            --background-color: #0a0a14;
+            --text-color: #e0e0e0;
+            --card-background: #1a1a2e;
         }
-        
-        * {
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Orbitron', sans-serif;
-            background-color: var(--dark-bg);
-            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             min-height: 100vh;
-            overflow-x: hidden;
-            position: relative;
+            line-height: 1.6;
         }
-        
-        /* 神经网络背景效果 */
-        #neural-network {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            opacity: 0.7;
-        }
-        
-        /* 网格背景 */
-        .grid-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: 
-                linear-gradient(var(--grid-color) 1px, transparent 1px),
-                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
-            background-size: 50px 50px;
-            z-index: -2;
-            opacity: 0.3;
-        }
-        
-        /* 主容器 */
+
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
+            max-width: 900px;
+            width: 95%;
+            margin: 2rem auto;
             padding: 2rem;
-            position: relative;
-            z-index: 1;
+            background-color: var(--card-background);
+            border: 1px solid var(--primary-color);
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.2), 0 0 15px rgba(255, 0, 255, 0.1) inset;
+            text-align: center;
         }
-        
-        /* 头部 */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1.5rem 0;
-            border-bottom: 1px solid rgba(0, 243, 255, 0.3);
-            margin-bottom: 4rem;
-        }
-        
-        .logo {
-            display: flex;
-            align-items: center;
-            font-size: 2.2rem;
+
+        h1.domain-name {
+            font-family: 'Orbitron', sans-serif;
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            margin: 0 0 1rem 0;
+            letter-spacing: 2px;
             font-weight: 900;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            transform: scale(0.9);
-            opacity: 0;
-            animation: logoReveal 1.5s ease-out forwards;
         }
-        
-        @keyframes logoReveal {
+
+        .cortexfab-span {
+            animation: glow 2s ease-in-out infinite alternate;
+            text-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color), 0 0 30px #00aaff;
+        }
+
+        .com-span {
+            animation: pulse 1.5s ease-in-out infinite;
+            color: var(--secondary-color);
+            text-shadow: 0 0 10px var(--secondary-color), 0 0 20px #ff00aa;
+        }
+
+        @keyframes glow {
+            from {
+                color: #ccffff;
+                text-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color), 0 0 30px #00aaff;
+            }
             to {
+                color: #ffffff;
+                text-shadow: 0 0 20px var(--primary-color), 0 0 35px #00aaff, 0 0 50px #0077cc;
+            }
+        }
+
+        @keyframes pulse {
+            0% {
                 transform: scale(1);
+                opacity: 0.8;
+            }
+            50% {
+                transform: scale(1.05);
                 opacity: 1;
             }
+            100% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
         }
-        
-        .logo-neural {
-            color: var(--neural-blue);
-            text-shadow: 0 0 10px var(--neural-blue);
+
+        h2.tagline {
+            font-size: clamp(1.2rem, 3vw, 1.5rem);
+            color: var(--primary-color);
+            font-weight: 400;
+            margin-bottom: 2rem;
+            text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
         }
-        
-        .logo-fab {
-            color: var(--matrix-green);
-            text-shadow: 0 0 10px var(--matrix-green);
+
+        p.description {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 2.5rem auto;
         }
-        
-        .domain-info {
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 0.9rem;
-            color: var(--neural-blue);
-            background: rgba(0, 243, 255, 0.1);
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            border: 1px solid rgba(0, 243, 255, 0.3);
-        }
-        
-        /* 主要内容 */
-        .main-content {
-            text-align: center;
-            margin-top: 5rem;
-        }
-        
-        .tagline {
-            font-size: 1.8rem;
-            margin-bottom: 3rem;
-            line-height: 1.4;
-            color: rgba(255, 255, 255, 0.9);
-        }
-        
-        .tagline span {
-            color: var(--neural-blue);
-            text-shadow: 0 0 5px var(--neural-blue);
-        }
-        
-        .countdown-container {
-            margin: 3rem 0;
-        }
-        
-        .countdown-title {
-            font-size: 1.2rem;
-            color: var(--neural-blue);
-            margin-bottom: 1.5rem;
-            font-family: 'Share Tech Mono', monospace;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-        
-        .countdown {
-            font-size: 4rem;
-            font-weight: 700;
-            font-family: 'Share Tech Mono', monospace;
-        }
-        
-        .countdown-unit {
-            display: inline-block;
-            margin: 0 1rem;
-            padding: 0.5rem 1rem;
-            background: rgba(0, 0, 0, 0.5);
-            border-radius: 8px;
-            border: 1px solid rgba(0, 243, 255, 0.3);
-            min-width: 120px;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .countdown-unit::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(45deg, transparent, rgba(0, 243, 255, 0.1), transparent);
-            z-index: 0;
-        }
-        
-        .countdown-value {
-            color: var(--neural-blue);
-            text-shadow: 0 0 10px var(--neural-blue);
-            position: relative;
-            z-index: 1;
-        }
-        
-        .countdown-label {
-            font-size: 1rem;
-            color: rgba(255, 255, 255, 0.7);
-            margin-top: 0.5rem;
-            display: block;
-            position: relative;
-            z-index: 1;
-        }
-        
-        /* 价格展示 */
+
         .pricing {
-            background: linear-gradient(135deg, rgba(0, 243, 255, 0.1), rgba(157, 0, 255, 0.1));
-            border: 1px solid rgba(0, 243, 255, 0.3);
-            border-radius: 12px;
-            padding: 2.5rem;
-            margin: 4rem auto;
-            max-width: 600px;
-            position: relative;
-            overflow: hidden;
+            margin-bottom: 2.5rem;
         }
-        
-        .pricing::before {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: linear-gradient(45deg, var(--neural-blue), var(--synapse-purple), var(--matrix-green));
-            z-index: -1;
-            border-radius: 14px;
-            opacity: 0.5;
-        }
-        
-        .price-title {
-            font-size: 1.2rem;
-            margin-bottom: 1.5rem;
-            color: rgba(255, 255, 255, 0.9);
-        }
-        
-        .price-amount {
-            font-size: 4.5rem;
-            font-weight: 900;
-            color: var(--neural-blue);
-            text-shadow: 0 0 15px var(--neural-blue);
-            line-height: 1;
+
+        .price {
+            font-size: clamp(2.5rem, 7vw, 4rem);
+            font-weight: 700;
+            color: #fff;
             margin-bottom: 0.5rem;
         }
-        
-        .price-subtitle {
-            font-size: 1rem;
-            color: rgba(255, 255, 255, 0.7);
-            margin-bottom: 2rem;
-            font-family: 'Share Tech Mono', monospace;
+
+        .installments {
+            font-size: 1.1rem;
+            color: var(--text-color);
         }
-        
-        /* CTA按钮 */
-        .cta-button {
-            display: inline-block;
-            background: linear-gradient(90deg, var(--neural-blue), var(--matrix-green));
-            color: var(--darker-bg);
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.1rem;
             font-weight: 700;
-            font-size: 1.2rem;
-            padding: 1.2rem 3rem;
-            border-radius: 8px;
             text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-top: 1.5rem;
+            cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 0 20px rgba(0, 243, 255, 0.5);
-            position: relative;
-            overflow: hidden;
+            border: 2px solid transparent;
         }
-        
-        .cta-button:hover {
+
+        .btn-buy {
+            background-color: var(--primary-color);
+            color: var(--background-color);
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+
+        .btn-buy:hover {
+            background-color: #fff;
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
             transform: translateY(-3px);
-            box-shadow: 0 0 30px rgba(0, 243, 255, 0.8);
         }
-        
-        .cta-button::after {
-            content: '';
-            position: absolute;
-            top: -10px;
-            left: -10px;
-            right: -10px;
-            bottom: -10px;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-            transform: translateX(-100%);
+
+        .btn-contact {
+            background-color: transparent;
+            color: var(--secondary-color);
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 15px rgba(255, 0, 255, 0.4);
         }
-        
-        .cta-button:hover::after {
-            animation: shine 1.5s ease;
+
+        .btn-contact:hover {
+            background-color: var(--secondary-color);
+            color: var(--card-background);
+            box-shadow: 0 0 25px rgba(255, 0, 255, 0.7);
+            transform: translateY(-3px);
         }
-        
-        @keyframes shine {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
+
+        .related-domains {
+            margin-top: 2rem;
         }
-        
-        /* 特性列表 */
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin: 5rem 0;
-        }
-        
-        .feature {
-            background: rgba(10, 10, 20, 0.7);
-            border: 1px solid rgba(0, 243, 255, 0.2);
-            border-radius: 10px;
-            padding: 2rem;
-            transition: all 0.3s ease;
-        }
-        
-        .feature:hover {
-            transform: translateY(-5px);
-            border-color: var(--neural-blue);
-            box-shadow: 0 10px 20px rgba(0, 243, 255, 0.1);
-        }
-        
-        .feature-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: var(--neural-blue);
-        }
-        
-        .feature-title {
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            color: white;
-        }
-        
-        .feature-desc {
-            color: rgba(255, 255, 255, 0.7);
-            line-height: 1.5;
-            font-family: 'Share Tech Mono', monospace;
-        }
-        
-        /* 联系方式区域 */
-        .contact-section {
-            background: rgba(5, 5, 16, 0.8);
-            border: 1px solid rgba(157, 0, 255, 0.3);
-            border-radius: 12px;
-            padding: 3rem;
-            margin: 4rem 0;
-            text-align: center;
-        }
-        
-        .contact-title {
-            font-size: 1.5rem;
+
+        .related-domains h3 {
+            color: var(--primary-color);
+            font-weight: 400;
+            border-bottom: 1px solid var(--primary-color);
+            padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
-            color: var(--neural-blue);
-        }
-        
-        .contact-email {
-            font-size: 1.8rem;
-            font-family: 'Share Tech Mono', monospace;
-            color: var(--matrix-green);
-            background: rgba(0, 255, 157, 0.1);
-            padding: 1rem 2rem;
-            border-radius: 8px;
             display: inline-block;
-            margin: 1rem 0;
-            text-decoration: none;
-            border: 1px solid rgba(0, 255, 157, 0.3);
-            transition: all 0.3s ease;
+        }
+
+        .domain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .domain-item {
+            background: rgba(0,0,0,0.2);
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 3px solid var(--secondary-color);
         }
         
-        .contact-email:hover {
-            background: rgba(0, 255, 157, 0.2);
-            box-shadow: 0 0 20px rgba(0, 255, 157, 0.3);
-            transform: scale(1.05);
-        }
-        
-        .contact-note {
-            margin-top: 1.5rem;
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 0.9rem;
-            font-family: 'Share Tech Mono', monospace;
-        }
-        
-        /* 页脚 */
-        footer {
-            margin-top: 5rem;
-            padding: 2rem 0;
-            text-align: center;
-            border-top: 1px solid rgba(0, 243, 255, 0.2);
-            color: rgba(255, 255, 255, 0.6);
-            font-family: 'Share Tech Mono', monospace;
-        }
-        
-        .footer-info {
-            margin-top: 1.5rem;
-            font-size: 0.9rem;
-        }
-        
-        /* 响应式设计 */
+        /* Responsive Design */
         @media (max-width: 768px) {
             .container {
-                padding: 1rem;
+                padding: 1.5rem;
+                margin: 1rem;
+                width: 90%;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .btn {
+                width: 80%;
+                text-align: center;
             }
             
-            .logo {
-                font-size: 1.8rem;
-            }
-            
-            .countdown {
-                font-size: 2.5rem;
-            }
-            
-            .countdown-unit {
-                margin: 0 0.5rem;
-                min-width: 90px;
-            }
-            
-            .price-amount {
-                font-size: 3.5rem;
-            }
-            
-            .features {
+            .domain-grid {
                 grid-template-columns: 1fr;
             }
-            
-            .contact-email {
-                font-size: 1.3rem;
-                padding: 0.8rem 1.5rem;
-                word-break: break-all;
-            }
         }
-        
-        /* 霓虹灯闪烁效果 */
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
-        }
-        
-        .pulse {
-            animation: pulse 2s infinite;
-        }
+
     </style>
 </head>
 <body>
-    <!-- 神经网络背景 -->
-    <canvas id="neural-network"></canvas>
-    <div class="grid-bg"></div>
-    
-    <div class="container">
+
+    <main class="container">
         <header>
-            <div class="logo">
-                <span class="logo-neural">CORTEX</span><span class="logo-fab">FAB</span>
-            </div>
-            <div class="domain-info">
-                9-CHAR DOMAIN | CORTEX + FAB | NEURAL MANUFACTURING INTERFACE
-            </div>
+            <h1 class="domain-name">
+                <span class="cortexfab-span">cortexfab</span><span class="com-span">.com</span>
+            </h1>
+            <h2 class="tagline">The Blueprint for AGI-Era Clustered Manufacturing</h2>
         </header>
         
-        <main class="main-content">
-            <h1 class="tagline pulse">
-                SYNTHESIZING <span>NEURAL ARCHITECTURES</span> WITH <span>ADVANCED FABRICATION</span>
-            </h1>
-            
-            <div class="countdown-container">
-                <div class="countdown-title">NEURAL PROTOCOL ACTIVATION COUNTDOWN</div>
-                <div class="countdown">
-                    <div class="countdown-unit">
-                        <div class="countdown-value" id="days">--</div>
-                        <div class="countdown-label">DAYS</div>
-                    </div>
-                    <div class="countdown-unit">
-                        <div class="countdown-value" id="hours">--</div>
-                        <div class="countdown-label">HOURS</div>
-                    </div>
-                    <div class="countdown-unit">
-                        <div class="countdown-value" id="minutes">--</div>
-                        <div class="countdown-label">MINUTES</div>
-                    </div>
-                </div>
-                <div class="countdown-title" style="font-size: 0.9rem; margin-top: 1rem;">
-                    UNTIL EXCLUSIVE NEURAL FABRICATION LICENSES ARE RELEASED
-                </div>
+        <section>
+            <p class="description">
+                Position your venture at the nexus of intelligence and creation. <strong>CortexFab.com</strong> is a paradigm-defining digital asset for a future where manufacturing is not just automated, but cognitive. This premium domain encapsulates the potential of distributed, AGI-coordinated fabrication networks—a true 'cortex' for physical production.
+            </p>
+        </section>
+
+        <section class="pricing">
+            <div class="price">$369,000</div>
+            <div class="installments">Payable in 10 flexible installments.</div>
+        </section>
+
+        <section class="cta-buttons">
+            <a href="https://www.spaceship.com/s/buy/cortexfab.com/Dlpt7xVdHG4IHQcb" class="btn btn-buy" target="_blank" rel="noopener noreferrer">Buy Now Securely</a>
+            <button id="contactBtn" class="btn btn-contact">Contact for Inquiry</button>
+        </section>
+
+        <section class="related-domains">
+            <h3>Also Available: A Portfolio of Future-Facing Domains</h3>
+            <div class="domain-grid">
+                <div class="domain-item">CortexFabricators.com</div>
+                <div class="domain-item">AGIFabrication.com</div>
+                <div class="domain-item">NeuralFabricator.com</div>
+                <div class="domain-item">SynapticFab.com</div>
+                <div class="domain-item">CognitiveManufacturing.com</div>
+                <div class="domain-item">AGICortex.ai</div>
+                <div class="domain-item">CortexCluster.com</div>
+                <div class="domain-item">NeuroFab.tech</div>
+                <div class="domain-item">IntelliFabricate.com</div>
+                <div class="domain-item">AGIAssembly.com</div>
+                <div class="domain-item">CortexWeaver.com</div>
+                <div class="domain-item">FabCortex.net</div>
             </div>
-            
-            <div class="pricing">
-                <div class="price-title">NEURAL MANUFACTURING DOMAIN ACQUISITION</div>
-                <div class="price-amount">$249,000</div>
-                <div class="price-subtitle">INCLUDES NEURAL NETWORK LICENSE & BIO-FABRICATION BLUEPRINT</div>
-                <a href="#contact" class="cta-button">INITIATE ACQUISITION PROTOCOL</a>
-            </div>
-            
-            <div class="contact-section" id="contact">
-                <div class="contact-title">NEURAL INTERFACE COMMUNICATION CHANNEL</div>
-                <div class="contact-subtitle">DIRECT NEURAL TRANSMISSION TO PRINCIPAL ARCHITECT</div>
-                <a href="mailto:joshua369x@gmail.com" class="contact-email">JOSHUA369X@GMAIL.COM</a>
-                <div class="contact-note">
-                    ENCRYPTED TRANSMISSION • 24H RESPONSE PROTOCOL • NEURAL SIGNATURE VERIFICATION REQUIRED
-                </div>
-            </div>
-            
-            <div class="features">
-                <div class="feature">
-                    <div class="feature-icon">🧠</div>
-                    <div class="feature-title">NEURO-FABRICATION</div>
-                    <div class="feature-desc">Direct neural interface to manufacturing systems. Thought-to-production pipeline with quantum encryption.</div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">⚡</div>
-                    <div class="feature-title">QUANTUM SYNTHESIS</div>
-                    <div class="feature-desc">Material synthesis at quantum coherence levels. Proprietary molecular assembly via neural pattern injection.</div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">🔬</div>
-                    <div class="feature-title">BIO-MIMETIC ARCHITECTURE</div>
-                    <div class="feature-desc">Self-organizing structures modeled on cortical columns. Adaptive manufacturing with evolutionary algorithms.</div>
-                </div>
-            </div>
-        </main>
-        
-        <footer>
-            <div class="footer-info">
-                DOMAIN STATUS: <span class="pulse" style="color: var(--matrix-green);">ACTIVE • NEURAL INTERFACE READY</span>
-            </div>
-            <div class="footer-info">
-                CORTEXFAB.COM | NEURAL MANUFACTURING INTERFACE v2.4
-            </div>
-        </footer>
-    </div>
+        </section>
+    </main>
 
     <script>
-        // 神经网络背景绘制
-        const canvas = document.getElementById('neural-network');
-        const ctx = canvas.getContext('2d');
-        
-        function resizeCanvas() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        }
-        
-        window.addEventListener('resize', resizeCanvas);
-        resizeCanvas();
-        
-        // 神经元节点
-        class Neuron {
-            constructor(x, y) {
-                this.x = x;
-                this.y = y;
-                this.radius = Math.random() * 3 + 1;
-                this.speedX = Math.random() * 2 - 1;
-                this.speedY = Math.random() * 2 - 1;
-                this.color = Math.random() > 0.5 ? 'rgba(0, 243, 255, 0.8)' : 'rgba(157, 0, 255, 0.8)';
-                this.pulse = 0;
-                this.pulseSpeed = Math.random() * 0.05 + 0.02;
-            }
-            
-            update() {
-                this.x += this.speedX * 0.5;
-                this.y += this.speedY * 0.5;
-                
-                // 边界检查
-                if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
-                if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
-                
-                // 脉冲效果
-                this.pulse += this.pulseSpeed;
-                if (this.pulse > Math.PI * 2) this.pulse = 0;
-            }
-            
-            draw() {
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.radius + Math.sin(this.pulse) * 2, 0, Math.PI * 2);
-                ctx.fillStyle = this.color;
-                ctx.fill();
-                
-                // 发光效果
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.radius + Math.sin(this.pulse) * 5, 0, Math.PI * 2);
-                ctx.strokeStyle = this.color.replace('0.8', '0.3');
-                ctx.lineWidth = 1;
-                ctx.stroke();
-            }
-        }
-        
-        // 创建神经元
-        const neurons = [];
-        const neuronCount = Math.min(50, Math.floor((canvas.width * canvas.height) / 20000));
-        
-        for (let i = 0; i < neuronCount; i++) {
-            neurons.push(new Neuron(
-                Math.random() * canvas.width,
-                Math.random() * canvas.height
-            ));
-        }
-        
-        // 绘制连接线
-        function drawConnections() {
-            for (let i = 0; i < neurons.length; i++) {
-                for (let j = i + 1; j < neurons.length; j++) {
-                    const dx = neurons[i].x - neurons[j].x;
-                    const dy = neurons[i].y - neurons[j].y;
-                    const distance = Math.sqrt(dx * dx + dy * dy);
-                    
-                    // 只连接较近的神经元
-                    if (distance < 150) {
-                        const opacity = 1 - distance / 150;
-                        ctx.beginPath();
-                        ctx.moveTo(neurons[i].x, neurons[i].y);
-                        ctx.lineTo(neurons[j].x, neurons[j].y);
-                        ctx.strokeStyle = `rgba(0, 243, 255, ${opacity * 0.3})`;
-                        ctx.lineWidth = 0.5;
-                        ctx.stroke();
-                        
-                        // 添加信号传播效果
-                        if (Math.random() < 0.02) {
-                            ctx.beginPath();
-                            ctx.moveTo(neurons[i].x, neurons[i].y);
-                            ctx.lineTo(neurons[j].x, neurons[j].y);
-                            ctx.strokeStyle = `rgba(157, 0, 255, ${opacity * 0.8})`;
-                            ctx.lineWidth = 1;
-                            ctx.stroke();
-                        }
-                    }
-                }
-            }
-        }
-        
-        // 动画循环
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
-            // 更新和绘制神经元
-            neurons.forEach(neuron => {
-                neuron.update();
-                neuron.draw();
-            });
-            
-            // 绘制连接
-            drawConnections();
-            
-            requestAnimationFrame(animate);
-        }
-        
-        animate();
-        
-        // 倒计时设置：设置为2024年12月31日（年底）
-        // 这可以象征"年度特价结束"或"项目正式启动"
-        const launchDate = new Date('2024-12-31T23:59:59').getTime();
-        
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const timeLeft = launchDate - now;
-            
-            if (timeLeft > 0) {
-                const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-                
-                document.getElementById('days').textContent = days.toString().padStart(2, '0');
-                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-            } else {
-                // 倒计时结束后的显示
-                document.getElementById('days').textContent = '00';
-                document.getElementById('hours').textContent = '00';
-                document.getElementById('minutes').textContent = '00';
-                document.querySelector('.countdown-title').textContent = 'NEURAL PROTOCOL ACTIVATED';
-                document.querySelector('.countdown-title').style.color = 'var(--matrix-green)';
-            }
-        }
-        
-        // 初始化倒计时
-        updateCountdown();
-        setInterval(updateCountdown, 1000); // 每秒更新
-        
-        // 添加邮箱复制功能
-        document.querySelector('.contact-email').addEventListener('click', function(e) {
-            e.preventDefault();
+        document.getElementById('contactBtn').addEventListener('click', function() {
             const email = 'joshua369x@gmail.com';
             
-            // 复制到剪贴板
-            navigator.clipboard.writeText(email).then(() => {
-                const originalText = this.textContent;
-                this.textContent = 'COPIED TO NEURAL BUFFER ✓';
-                this.style.color = 'var(--matrix-green)';
-                
-                setTimeout(() => {
-                    this.textContent = originalText;
-                    this.style.color = 'var(--matrix-green)';
-                }, 2000);
-            });
+            // Use the modern Navigator Clipboard API
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(email).then(() => {
+                    this.textContent = 'Email Copied!';
+                    setTimeout(() => {
+                        this.textContent = 'Contact for Inquiry';
+                    }, 3000);
+                }).catch(err => {
+                    console.error('Failed to copy: ', err);
+                    fallbackCopy(email, this);
+                });
+            } else {
+                // Fallback for older browsers
+                fallbackCopy(email, this);
+            }
         });
+
+        function fallbackCopy(text, buttonElement) {
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            
+            // Make the textarea invisible
+            textArea.style.position = 'fixed';
+            textArea.style.top = '0';
+            textArea.style.left = '0';
+            textArea.style.width = '2em';
+            textArea.style.height = '2em';
+            textArea.style.padding = '0';
+            textArea.style.border = 'none';
+            textArea.style.outline = 'none';
+            textArea.style.boxShadow = 'none';
+            textArea.style.background = 'transparent';
+
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+
+            try {
+                const successful = document.execCommand('copy');
+                if (successful) {
+                    buttonElement.textContent = 'Email Copied!';
+                } else {
+                    buttonElement.textContent = 'Copy Failed';
+                }
+            } catch (err) {
+                console.error('Fallback: Oops, unable to copy', err);
+                buttonElement.textContent = 'Copy Failed';
+            }
+
+            document.body.removeChild(textArea);
+            
+            setTimeout(() => {
+                buttonElement.textContent = 'Contact for Inquiry';
+            }, 3000);
+        }
     </script>
+
 </body>
 </html>
